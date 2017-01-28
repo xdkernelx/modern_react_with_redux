@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 // Const is ES6 similar to var
 // JSX is a HTML-like JS
 
-const App = function() {
+const App = () => {
 
   return <div>Hi!</div>;
 
