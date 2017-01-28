@@ -15,7 +15,7 @@ class SearchBar extends Component {
   // This basically prints out what you are 
   // typing into the console
   render() {
-    return  <div>
+    return  <div className='search-bar'>
               <input value={this.state.term} onChange={event => this.setState({ term : event.target.value })} />;
             </div>
   };
