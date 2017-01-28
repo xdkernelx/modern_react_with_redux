@@ -13,9 +13,10 @@ const API_KEY = "AIzaSyB_y41M_1_Kx2sFdzXuRqWOOcqketLWWA0";
 
 const App = () => {
 
-  return <div>Hi!</div>;
-
-};
+  return <div>
+          <SearchBar />
+         </div>;
+}
 
 // Second argument is targetElmement location
 ReactDOM.render(<App />, document.querySelector('.container'));
