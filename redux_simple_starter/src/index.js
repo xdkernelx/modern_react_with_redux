@@ -1,15 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
+// Create a new component that produces HTML
+// Const is ES6 similar to var
+// JSX is a HTML-like JS
 
-import App from './components/app';
-import reducers from './reducers';
+const App = function() {
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+  return <div>Hi!</div>;
 
-ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
-    <App />
-  </Provider>
-  , document.querySelector('.container'));
+}
