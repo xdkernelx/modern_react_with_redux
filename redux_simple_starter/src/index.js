@@ -11,5 +11,5 @@ const App = function() {
 
 }
 
-
-ReactDOM.render(App);
+// Second argument is targetElmement location
+ReactDOM.render(<App />, document.querySelector('.container'));
